@@ -1,0 +1,28 @@
+.todoContainer {
+    display: flex;
+    color: #000;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: bold;
+    align-items: center;
+
+    input {
+        margin-right: 8px;
+        width: 19px;
+        height: 19px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+p {
+    margin: 0;
+}
+
+.todoCompleted {
+    text-decoration: line-through;
+    color: #afacac;
+    font-style: oblique;
+}
